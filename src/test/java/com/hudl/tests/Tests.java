@@ -55,6 +55,7 @@ public class Tests extends BaseTest  {
     @Test(priority = 4)
     public void loginWithCorrectCredentials(){
         loginPage.openLoginPage();
+
         //Please add your credentials into comfiguration.properties file
         loginPage.sendKeys(loginPage.emailField, loginEmail);
         loginPage.sendKeys(loginPage.passwordField, password);
